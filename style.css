@@ -1,0 +1,27 @@
+body {
+    /* Sayfa kenar boşluklarını sıfırla */
+    margin: 0;
+    
+    /* Dikey ve yatayda ortalamak için Flexbox kullan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Sayfanın yüksekliğini tarayıcı penceresi kadar yap */
+    height: 100vh;
+    
+    /* Arka plan rengini siyah yap */
+    background-color: #000;
+    
+    /* Scrollbar'ı gizle */
+    overflow: hidden;
+}
+
+#gameCanvas {
+    /* Kenarlık ekleme */
+    border: 2px solid #fff;
+    
+    /* Canvas'ın boyutunu sabitleme */
+    width: 900px;
+    height: 600px;
+}
